@@ -3,7 +3,6 @@ import profile from '../../../assets/images/profile-pic.jpeg'
 import SocialLinks from '../../../components/SocialLinks'
 
 const Profile = () => {
-
     return (
         <div className='lg:w-[380px] border-[1px] border-[#bbb] rounded-3xl px-6 py-10 sticky top-16'>
             <div className='flex justify-between mb-6'>

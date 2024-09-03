@@ -59,7 +59,7 @@ export const skillsData = [
       },
       {
         icon: 'docker.png',
-        name: 'DOcker'
+        name: 'Docker'
       },
       {
         icon: 'terraform.png',
