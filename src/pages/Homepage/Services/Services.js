@@ -15,7 +15,7 @@ const Services = () => {
         {
             "id": 2,
             "service": "Database Management",
-            "details": "Having worked on over 5 projects using both NoSQL and SQL databases and coupled with my knowledge of database management, I'm confident about my capacity to manage databases efficiently and work with ORM and ODM for databases."
+            "details": "Having worked on over 7 projects using both NoSQL and SQL databases and coupled with my knowledge of database management, I'm confident about my capacity to manage databases efficiently and work with ORM and ODM for databases."
         },
         {
             "id": 3,
