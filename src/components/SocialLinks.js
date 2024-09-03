@@ -1,5 +1,5 @@
 import React from 'react'
-import { GrFacebookOption, GrGithub, GrLinkedinOption } from 'react-icons/gr'
+import { GrGithub, GrLinkedinOption } from 'react-icons/gr'
 import { FaWhatsapp } from 'react-icons/fa'
 const SocialLinks = () => {
     return (

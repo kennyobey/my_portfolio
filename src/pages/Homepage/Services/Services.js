@@ -37,7 +37,7 @@ const Services = () => {
                         data-aos="fade-up"
                         data-aos-delay={`${((index) % 6) * 100 + 100}`}
                     >
-                        {index === 0 && <img src='https://drive.google.com/file/d/17BCQO6cFICUDfRolkjei_Wvh-35bm_0n/view?usp=sharing' alt='backend' style={{ width: '40px' }} />
+                        {index === 0 && <HiOutlineCode className='text-[40px]' />
                         }
 
                         {index === 1 && <SiReact className='text-[40px]' />}

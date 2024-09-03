@@ -1,8 +1,8 @@
-import React, { useContext } from 'react'
+import React from 'react'
 import { Link, useLocation } from 'react-router-dom'
 // import { AuthContext } from '../../context/AuthProvider'
 import { FiLogOut } from 'react-icons/fi'
-import { toast } from 'react-hot-toast'
+//import { toast } from 'react-hot-toast'
 
 const Navbar = () => {
     const location = useLocation()

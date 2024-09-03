@@ -4,9 +4,9 @@ import React from 'react'
 // import { BsCamera } from 'react-icons/bs'
 // import { MdOutlineCalendarToday, MdOutlineFeaturedPlayList } from 'react-icons/md'
 // import { PhotoProvider, PhotoView } from 'react-photo-view';
-
+//features, duration, technologies, client, server, images 
 const ProjectModal = ({ data }) => {
-    const { name, description, features, duration, technologies, liveLink, client, server, images } = data
+    const { name, description, liveLink} = data
     return (
         <div>
             <input type="checkbox" id="project-modal" className="modal-toggle" />
