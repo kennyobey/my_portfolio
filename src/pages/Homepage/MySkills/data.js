@@ -23,10 +23,6 @@ export const skillsData = [
         name: 'Firebase'
       },
       {
-        icon: 'react.png',
-        name: 'React Native'
-      },
-      {
         icon: 'python.svg',
         name: 'Python'
       }
