@@ -12,15 +12,12 @@ export const projectData = [
     description: 'Welcome to Cars UAE Market, your ultimate destination for buying and selling cars in the UAE. Our app is designed to provide a seamless and user-friendly experience, ensuring you find the perfect vehicle or sell your car with ease.'
   },
   { 
-<<<<<<< HEAD
-=======
     name: 'Exchange Collective Inc.', 
     img: 'ExchangeCollective.png', 
     liveLink: 'https://exchangecollective.com/', 
     description: 'The original vision, “to give small-to-medium size, independent retail stores a chance to play with the big boys, to thrive and grow in online marketplaces,” still drives every effort at EXC. We believe people behind those businesses, as well as their customers, are the driving forces that help our local communities to flourish. Exchange Collective is dedicated to their success!'
   },
   { 
->>>>>>> 2e5fee9 (Added emailjs and exchange collective project)
     name: 'Damage Auto', 
     img: 'damageautoweb.png', 
     liveLink: 'https://www.damageauto.com/en', 

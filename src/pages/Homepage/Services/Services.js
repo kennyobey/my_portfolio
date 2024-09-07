@@ -1,13 +1,7 @@
 import React from 'react'
 import SectionTitle from '../../../components/Typography/SectionTitle'
-<<<<<<< HEAD
-import { SiReact } from 'react-icons/si'
-import { HiOutlineCode } from 'react-icons/hi'
-import { FiCodesandbox } from 'react-icons/fi'
-=======
 import { HiOutlineDatabase } from 'react-icons/hi'
 import { FiCode, FiUploadCloud } from 'react-icons/fi'
->>>>>>> 2e5fee9 (Added emailjs and exchange collective project)
 import SectionHead from '../../../components/Typography/SectionHead'
 
 const Services = () => {
@@ -42,19 +36,11 @@ const Services = () => {
                         data-aos="fade-up"
                         data-aos-delay={`${((index) % 6) * 100 + 100}`}
                     >
-<<<<<<< HEAD
-                        {index === 0 && <HiOutlineCode className='text-[40px]' />
-                        }
-
-                        {index === 1 && <SiReact className='text-[40px]' />}
-                        {index === 2 && <FiCodesandbox className='text-[40px]' />}
-=======
                         {index === 0 && <FiCode className='text-[40px]' />
                         }
 
                         {index === 1 && <HiOutlineDatabase className='text-[40px]' />}
                         {index === 2 && <FiUploadCloud className='text-[40px]' />}
->>>>>>> 2e5fee9 (Added emailjs and exchange collective project)
                         <div>
                             <h2 className='lg:text-2xl md:text-2xl text-xl mt-3 lg:font-normal md:font-normal font-bold'>{service}</h2>
                             <p className='text-accent mt-3 text-sm'>{details}</p>
