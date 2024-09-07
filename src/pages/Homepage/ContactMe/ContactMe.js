@@ -6,17 +6,16 @@ import SectionHead from '../../../components/Typography/SectionHead'
 
 const ContactMe = () => {
     const form = useRef();
-
     const sendEmail = (e) => {
         e.preventDefault();
-        toast.error("Message failed to send")
 
-        emailjs.sendForm('service_tpsaxws', 'template_8m6m8mh', form.current, 'JPI2KrXHfhsRwKO43')
+        emailjs.sendForm(process.env.REACT_APP_EMAILJS_SERVICE_ID, process.env.REACT_APP_EMAILJS_TEMPLATE_ID, form.current, process.env.REACT_APP_EMAILJS_PUBLIC_KEY)
             .then((result) => {
                 console.log(result.text);
                 e.target.reset()
                 toast.success("Message sent successfully")
             }, (error) => {
+                toast.error("Message failed to send")
                 console.log(error.text);
             });
     };
