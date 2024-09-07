@@ -9,7 +9,7 @@ const ContactMe = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm(process.env.REACT_APP_EMAILJS_SERVICE_ID, process.env.REACT_APP_EMAILJS_TEMPLATE_ID, form.current, process.env.REACT_APP_EMAILJS_PUBLIC_KEY)
+        emailjs.sendForm('service_qiswto', 'template_b7k2j1a', form.current, 'E4K_m4jkhPaxO8mK5')
             .then((result) => {
                 console.log(result.text);
                 e.target.reset()
