@@ -1,12 +1,12 @@
 import React from 'react'
-import profile from '../../../assets/images/profile-pic.jpeg'
+import profile from '../../../assets/images/kenny.JPEG'
 
 const HomeProfile = () => {
     return (
         <div className='w-full px-4 lg:hidden flex md:flex-row items-center flex-col py-6'>
             <div className='md:w-1/2 w-full flex md:flex-col flex-row justify-center items-center mb-6'>
                 <div className='flex md:flex-col flex-row justify-between md:h-28 h-auto md:w-auto w-full'>
-                    <h2 className='text-white text-4xl font-bold text-[#03C988]'>Temitayo</h2>
+                    <h2 className='text-white text-4xl font-bold text-[#03C988]'>Kehinde</h2>
                     <h2 className='text-white leading-[20px]'>Software Engineer</h2>
                 </div>
             </div>

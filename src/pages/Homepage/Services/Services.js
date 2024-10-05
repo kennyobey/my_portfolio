@@ -8,8 +8,8 @@ const Services = () => {
     const services = [
         {
             "id": 1,
-            "service": "Bankend Web Development",
-            "details": "I can write both REST and GraphQL APIs using the Nodejs runtime environment, Express, and Apollo servers. I'm capable of writing clean and efficient codes with my knowledge of data structure and algorithms, and system design."
+            "service": "Mobile Development",
+            "details": "I specialize in mobile development using the Flutter framework, creating cross-platform applications for both Android and iOS. I am proficient in designing and building intuitive, user-friendly mobile interfaces while integrating features through REST and GraphQL APIs. With a solid foundation in Flutter and Dart, I write clean and efficient code, leveraging my knowledge of data structures, algorithms, and system design to ensure high performance and scalability in my applications."
         },
         {
             "id": 2,
@@ -18,8 +18,8 @@ const Services = () => {
         },
         {
             "id": 3,
-            "service": "Cloud Computing",
-            "details": "With my knowledge of cloud computing over the years backed with certifications from Amazon Web Services (AWS) and Oracle Cloud Infrastructure, I'm capable of working with cloud services and currently exploring DevOps, having learned containerization with Docker and container orchestration using Kubernetes."
+            "service": "Firebase",
+            "details": "I have expertise in working with Firebase to build robust, real-time mobile applications. I can effectively integrate Firebase services, such as Firestore, Firebase Authentication, and Cloud Functions, into Flutter applications to enhance functionality and user experience. My ability to design and implement scalable backend systems using Firebase ensures seamless data synchronization and user authentication. I write clean and efficient code, leveraging my understanding of data structures, algorithms, and system design to deliver performant, real-time applications."
         },
     ]
     const props = { img: "https://cdn.lordicon.com/ofwpzftr.json", text: "Services" }

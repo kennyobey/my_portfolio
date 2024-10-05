@@ -1,80 +1,92 @@
 export const skillsData = [
   {
-    setsName: 'Backend',
+    setsName: "Mobile",
     skillSet: [
       {
-        icon: 'rest.png',
-        name: 'REST'
+        icon: "flutter.png",
+        name: "Flutter",
       },
       {
-        icon: 'graphql.png',
-        name: 'GraphQL'
+        icon: "dart.png",
+        name: "Dart",
       },
       {
-        icon: 'js.png',
-        name: 'Javascript'
+        icon: "figma.png",
+        name: "Figma",
       },
       {
-        icon: 'nodejs.png',
-        name: 'Nodejs'
+        icon: "rest.png",
+        name: "REST",
       },
       {
-        icon: 'firebase.webp',
-        name: 'Firebase'
+        icon: "graphql.png",
+        name: "GraphQL",
       },
       {
-        icon: 'python.svg',
-        name: 'Python'
-      }
-    ]
+        icon: "js.png",
+        name: "Javascript",
+      },
+      {
+        icon: "firebase.webp",
+        name: "Firebase",
+      },
+      {
+        icon: "python.svg",
+        name: "Python",
+      },
+    ],
   },
   {
-    setsName: 'Database',
+    setsName: "Database",
     skillSet: [
       {
-        icon: 'mongodb.png',
-        name: 'MongoDB'
+        icon: "mongodb.png",
+        name: "MongoDB",
       },
       {
-        icon: 'postgresql.png',
-        name: 'PostgreSQL'
+        icon: "postgresql.png",
+        name: "PostgreSQL",
       },
       {
-        icon: 'mysql.png',
-        name: 'MySQL'
-      }
-    ]
-  },
-
-  {
-    setsName: 'DevOps',
-    skillSet: [
-      {
-        icon: 'kubernetes.png',
-        name: 'Kubernetes'
+        icon: "mysql.png",
+        name: "MySQL",
       },
-      {
-        icon: 'docker.png',
-        name: 'Docker'
-      },
-      {
-        icon: 'terraform.png',
-        name: 'Terraform'
-      },
-      {
-        icon: 'aws.png',
-        name: 'AWS'
-      }
-    ]
+    ],
   },
 
+  // {
+  //   setsName: "DevOps",
+  //   skillSet: [
+  //     {
+  //       icon: "kubernetes.png",
+  //       name: "Kubernetes",
+  //     },
+  //     {
+  //       icon: "docker.png",
+  //       name: "Docker",
+  //     },
+  //     {
+  //       icon: "terraform.png",
+  //       name: "Terraform",
+  //     },
+  //     {
+  //       icon: "aws.png",
+  //       name: "AWS",
+  //     },
+  //   ],
+  // },
+
   {
-    setsName: 'Tools',
+    setsName: "Tools",
     skillSet: [
       {
-        icon: 'github.png',
-        name: 'GitHub'
+        icon: "nodejs.png",
+        name: "Nodejs",
       },
-    ]
-  }
-] 
+      {
+        icon: "github.png",
+        name: "GitHub",
+      },
+    ],
+  },
+];

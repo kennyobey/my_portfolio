@@ -1,34 +1,63 @@
-import React from 'react'
-import SectionTitle from '../../../components/Typography/SectionTitle'
-import SectionHead from '../../../components/Typography/SectionHead'
+import React from "react";
+import SectionTitle from "../../../components/Typography/SectionTitle";
+import SectionHead from "../../../components/Typography/SectionHead";
 
 const AboutMe = () => {
-  const props = { img: "https://cdn.lordicon.com/bhfjfgqz.json", text: "About Me" }
+  const props = {
+    img: "https://cdn.lordicon.com/bhfjfgqz.json",
+    text: "About Me",
+  };
   return (
-    <section id='about' className='mb-16'>
+    <section id="about" className="mb-16">
       <SectionTitle props={props} />
       <SectionHead>
-      Every great career begins with<span className='text-primary'> passion</span>; it's the fuel that turns curiosity into expertise and dreams into achievements
+        Every successful career is built on
+        <span className="text-primary"> passion</span>; it’s the driving force
+        that transforms curiosity into expertise and aspirations into
+        milestones.
       </SectionHead>
 
-      <p className="text-accent max-w-[800px]">My journey into software engineering began out of passion for a computer network and a cloud enthusiast trying to contribute his quota and apply his existing knowledge into the technology space. Upon having a close look into the areas of specializations in software engineering, I realised backend engineering is a good fit givenmy knowledge of networking and server administration. Over time, this passion has grown into a fulfilling career. With over three years of experience, I specialize in Node.js writing both REST and GraphQL APIs and have extensive knowledge of both NoSQL and SQL databases. My expertise also includes cloud engineering, supported by AWS certifications, and I am currently expanding my skills into DevOps. When I'm not tapping the keys on the keyboard, you'll find me watching netlix, playing games or just chilling to some cool music.
+      <p className="text-accent max-w-[800px]">
+        My journey into software engineering began with a deep-seated passion
+        for mobile development and a desire to contribute my skills to solving
+        real-world problems. What started as a fascination with mobile apps has
+        evolved into a focus on building efficient, high-performance solutions
+        tailored to modern users. With over four years of experience as a
+        Flutter developer, I have specialized in creating cross-platform mobile
+        applications using Flutter and Dart. My work spans diverse industries,
+        including e-commerce, fintech, and education, developing intuitive and
+        user-friendly applications. I have utilized state management tools like
+        GetX, Bloc, and Stacked architecture to design and maintain
+        multi-feature apps. I also possess expertise in RESTful and GraphQL API
+        integration, ensuring robust and optimized performance across platforms.
+        Recently, I’ve been exploring the vast possibilities of artificial
+        intelligence and how it can revolutionize software development to
+        address global challenges. I am committed to continuous learning,
+        whether it be expanding my knowledge in AI, cloud services, and refining
+        my current skills in backend development. Outside of coding, I dedicate
+        my time to exploring new technologies, contributing to open-source
+        projects, and expanding my understanding of AI and DevOps.
       </p>
-      <div className='flex'>
-        <a href='https://drive.google.com/file/d/1Ew89bUbzO2SCMpSGLZ7ZUvcywRtzAhEb/view?usp=sharing' target="_blank" rel="noreferrer">
-          <button className='hover:text-primary transition duration-300 text-lg flex gap-2 items-center uppercase icon mt-10'>
+      <div className="flex">
+        <a
+          href="https://docs.google.com/file/d/1JXyOqz_QATMpkzVmwCGsJR9MzR5fmA4cXkuuh9IpNSc/edit?usp=sharing"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button className="hover:text-primary transition duration-300 text-lg flex gap-2 items-center uppercase icon mt-10">
             <lord-icon
               target="button"
               src="https://cdn.lordicon.com/egiwmiit.json"
               trigger="hover"
               class="current-color"
-              style={{ width: "24px", height: "24px" }}>
-            </lord-icon>
+              style={{ width: "24px", height: "24px" }}
+            ></lord-icon>
             Get my CV
           </button>
         </a>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default AboutMe
+export default AboutMe;

@@ -14,7 +14,7 @@ const Projects = () => {
         <section id="projects" className='mb-20'>
             <SectionTitle props={props} />
             <SectionHead>
-                Web <span className='text-primary'>Projects</span>
+                Mobile <span className='text-primary'>Projects</span>
             </SectionHead>
             <div className='projects'>
                 {projects?.slice(0, 4).map((project, index) => <ProjectCard key={index} project={project} index={index} setModal={setModal} />)}
